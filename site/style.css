@@ -36,7 +36,7 @@ p {
     position: relative;
     margin-inline-end: 1rem;
     display: inline-block;
-    width: 32.1%;
+    width: 30%;
 }
 
 #sushi {
@@ -86,19 +86,19 @@ p {
     #chicken,
     #beef,
     #sushi {
-        width: 31.89%;
+        width: 30%;
     }
     .red,
     .pink,
     .yellow {
-        width: 30%;
+        width: 35%;
     }
 }
 
 @media (min-width:768px) and (max-width:991px) {
     #chicken,
     #beef {
-        width: 48.6%;
+        width: 48%;
         margin-bottom: 1rem;
     }
     #beef {
@@ -120,5 +120,10 @@ p {
         clear: left;
         width: 100%;
         margin-bottom: 1rem;
+    }
+    .pink,
+    .red,
+    .red {
+        width: 30%;
     }
 }
